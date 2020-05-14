@@ -34,3 +34,7 @@ test('Works with ES6 code', function(done) {
 test('ignores node blocks', function(done) {
   run('gfm-node-block', done);
 });
+
+test('handles iife', function(done) {
+	run('iife', done);
+});
